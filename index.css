@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Cinzel", "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-maroon-950: #26050b;
+  --color-maroon-900: #3b0710;
+  --color-maroon-800: #4a0e17;
+  --color-maroon-700: #670d1f;
+  --color-maroon-600: #881329;
+  
+  --color-gold-200: #fbf1c9;
+  --color-gold-300: #f5e5ab;
+  --color-gold-400: #e5c05b;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #c59b27;
+  --color-gold-700: #9e7a18;
+
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #faf6ee;
+  --color-cream-200: #f5efe1;
+  --color-cream-300: #ebe1cb;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #faf7f2;
+  color: #2c1810;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif-title {
+  font-family: var(--font-serif);
+}
+
+/* Luxury gold border and gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f7df94 0%, #d4af37 50%, #aa7c11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.25);
+}
+
+/* Subtle Indian Royal Mandala / Motif pattern for section dividers */
+.mandala-pattern {
+  background-image: radial-gradient(#d4af37 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}

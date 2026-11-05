@@ -1,0 +1,6 @@
+{
+  "name": "Om Shivshakti Marriage Hall",
+  "description": "Premium wedding & event venue in Rajauli, Nawada, Bihar. Shaadi, Tilak, Reception, Anniversary aur khaas mauke ke liye ek perfect venue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
